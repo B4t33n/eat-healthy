@@ -141,8 +141,28 @@ padding: 10px 15px;
     margin-top: 10px;   
 }
 
+.subs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 90px;
+    height: 10rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
+}
+.subs-item>h1{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 64px;
+}
+.subs-item>p{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
 
 
+/* responsive for mobile device */
 
 @media screen and (max-width: 576px) {
     .banner{
@@ -173,5 +193,10 @@ padding: 10px 15px;
 
     .recipe-card{
         width: 100%;
+    }
+
+    .subs{
+        flex-direction: column;
+        height: 20rem;
     }
 }
