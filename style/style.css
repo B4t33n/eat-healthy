@@ -57,7 +57,7 @@ span{
     color: rgb(130, 130, 130);
     font-size: 20px;
     font-weight: 500;
-    line-height: 130%;
+    line-height: 120%;
     letter-spacing: -2%;
     margin: 20px 0;
 }
@@ -65,7 +65,7 @@ span{
 .about-content>h1{
     font-size: 50px;
     font-weight: 700;
-    line-height: 120%;
+    line-height: 160%;
     letter-spacing: -2%;
 }
 
@@ -73,6 +73,73 @@ span{
     height: 500px;
 }
 
+.card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.recipe-header{
+    text-align: center;
+    margin-top: 20px;
+}
+.recipe-header>h1{
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -2%;
+}
+.recipe-header>p{
+    color: rgb(130, 130, 130);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -2%;
+    margin: 20px 0;
+}
+
+.recipe-card{
+    width: 40%;
+    /* height: 430px;
+    width: 500px; */
+    border-radius: 30px;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    align-items: center;
+}
+
+.recipe-card-item{
+    text-align: center;
+}
+
+.recipe-card-item>h3{
+    color: rgb(24, 25, 31);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 38px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.recipe-card-item>p{
+    color: rgb(24, 25, 31);
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+padding: 10px 15px;
+
+}
+
+.recipe-card-item>img{
+    width: 75%;
+    /* height: 250px;
+    width: 450px; */
+    border-radius: 20px; 
+    margin-top: 10px;   
+}
 
 
 
@@ -97,5 +164,14 @@ span{
         flex-direction: column;
         text-align: center;
         margin-top: 80px;
+    }
+
+    .card{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .recipe-card{
+        width: 100%;
     }
 }
