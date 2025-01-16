@@ -43,6 +43,36 @@ span{
     transition: 0.3s;
 }
 
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 90px;
+    background: url(../images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-content>p{
+    color: rgb(130, 130, 130);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: -2%;
+    margin: 20px 0;
+}
+
+.about-content>h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -2%;
+}
+
+.about-image>img{
+    height: 500px;
+}
+
 
 
 
@@ -61,5 +91,11 @@ span{
 
     .banner-image>img{
         width: 100%;
+    }
+
+    .about{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 80px;
     }
 }
